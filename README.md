@@ -1,33 +1,35 @@
 # Shoply
-Shoply is a full-stack e-commerce web application built for browsing products, managing cart items, and placing orders.
-
-## Tech Stack
-* React
-* JavaScript
-* Node.js
-* Express.js
-* MongoDB
+Shoply is a full-stack e-commerce web application built with React, Node.js, Express.js and MongoDB.
 
 ## Features
-* Product browsing
 * User authentication
+* Product browsing
 * Shopping cart
 * Order management
-* Frontend + Backend API
+* Frontend and backend API
 
-## Project Structure
-```text
-client/   # Frontend
-server/   # Backend
-```
+## Tech Stack
+React • Node.js • Express.js • MongoDB
 
 ## Run Locally
-Install dependencies in both `client` and `server` folders:
+
+### Backend
 ```bash
+cd server
 npm install
+npm start
 ```
 
-Then start the frontend and backend using their respective start commands.
+### Frontend
+Open a new terminal:
+
+```bash
+cd client
+npm install
+npm start
+```
+
+Make sure the required environment variables are configured in the backend `.env` file.
 
 ## Author
 
